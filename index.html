@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Net Salary Calculator</h1>
+    <!-- form starts here -->
+        <form action="">
+            <div>
+                <label  for="input">Year of Taxation &nbsp; 2023</label>
+                <!-- <input type="text" value="2013"> -->
+            </div>
+            <div>
+                <label for="radioButton">Payment Period</label>
+                <input type="radio" value="monthly">
+                <label for="radio1">Month</label>
+                <input type="radio" value="yearly">
+                <label for="radio2">Year</label>
+            </div>
+            <div>
+                <label for="gross">Gross Salary</label>
+                <input id="txt1" type="text" placeholder="Gross Salary">
+            </div>
+            <div>
+                <label for="contributionBenefit">Contribution Benefit</label>
+                <input type="text" name="" id="txt2" placeholder="Contribution Benefit">
+            </div>
+            <div>
+                <label for="disabilityExcemption">Do you have a disability <br> excemption certificate?</label>
+                <input type="radio" name="" id="">
+                <label for="">Yes</label>
+                <input type="radio" name="" id="">
+                <label for="">No</label>
+            </div>
+            <div>
+                <label for="morgage">Do you have a Mortgage?</label>
+                <input type="radio" name="" id="">
+                <label for="">Yes</label>
+                <input type="radio" name="" id="">
+                <label for="">No</label>
+            </div>
+            <div>
+                <label for="insurancePolicy">Do you have a life insurance policy?</label>
+                <input type="radio" name="" id="">
+                <label for="">Yes</label>
+                <input type="radio" name="" id="">
+                <label for="">No</label>
+            </div>
+            <div>
+                <label for="savingsPlan">Do you have a Home Ownership Savings Plan?</label>
+                <input type="radio" name="" id="">
+                <label for="">Yes</label>
+                <input type="radio" name="" id="">
+                <label for="">No</label>
+            </div>
+            <div><button type="button" id="calculate">Calculate PAYE</button></div>
+            <p>P.A.Y.E : <span id="output"></span> </p>
+            <p>NET SALARY: <span id="output1"></span> </p>
+        </form>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Deleniti, error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, reiciendis.</p>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
